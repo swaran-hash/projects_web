@@ -1,0 +1,37 @@
+[
+    {
+        "name": "BMW M4",
+        "brand": "BMW",
+        "engine": "3.0L Twin Turbo Inline-6",
+        "power": "503 HP",
+        "image": "https://i.imgur.com/VqHh1aR.jpg"
+    },
+    {
+        "name": "Audi R8",
+        "brand": "Audi",
+        "engine": "5.2L V10",
+        "power": "610 HP",
+        "image": "https://i.imgur.com/kYvPZBZ.jpg"
+    },
+    {
+        "name": "Mercedes AMG GT",
+        "brand": "Mercedes",
+        "engine": "4.0L Twin Turbo V8",
+        "power": "523 HP",
+                   "image": "https://i.imgur.com/ITRX1xP.jpg"
+    },
+    {
+        "name": "Nissan GTR",
+        "brand": "Nissan",
+        "engine": "3.8L Twin Turbo V6",
+        "power": "565 HP",
+        "image": "https://i.imgur.com/1WmYQmd.jpg"
+    },
+    {
+        "name": "Lamborghini Huracán",
+        "brand": "Lamborghini",
+        "engine": "5.2L V10",
+        "power": "631 HP",
+        "image": "https://i.imgur.com/W2eZwHj.jpg"
+    }
+]
