@@ -1,65 +1,74 @@
-* {
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 
-body {
-    background: #f2f2f2;
+.container {
+    width: 300px;
+    margin: 150px auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    box-shadow: 0 0 15px #00000055;
 }
 
-header {
-    background: #111;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.controls {
-    margin-top: 15px;
-}
-
-input, select {
+input {
+    width: 90%;
     padding: 10px;
-    font-size: 16px;
-    margin: 5px;
+    margin: 10px 0;
+    border-radius: 8px;
     border: none;
-    border-radius: 5px;
+    outline: none;
 }
 
-/* Car Cards Grid */
-.car-container {
-    margin: 30px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-}
-
-.car-card {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: 0.3s;
-}
-
-.car-card:hover {
-    transform: scale(1.05);
-}
-
-.car-card img {
-    width: 100%;
-    height: 160px;
-    border-radius: 10px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #111;
+button {
+    width: 95%;
+    padding: 10px;
+    background: #ff3d00;
+    border: none;
     color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d83200;
+}
+
+.title {
+    margin-top: 30px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    color: black;
+    width: 250px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #00000055;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: crimson;
 }
