@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cars Showcase</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+
+    <button class="logout" onclick="logout()">Logout</button>
+
+    <h1 class="title">🚗 Beautiful Cars Collection</h1>
+
+    <div class="cards-container">
+
+        <div class="card">
+            <img src="https://i.imgur.com/TkP2ZjN.jpeg" alt="Car 1">
+            <h3>Lamborghini Aventador</h3>
+            <p>Top speed: 350 km/h</p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/tYV9A3p.jpeg" alt="Car 2">
+            <h3>Ferrari 488 GTB</h3>
+            <p>Top speed: 330 km/h</p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.imgur.com/zLqzM3O.jpeg" alt="Car 3">
+            <h3>Porsche 911 Turbo</h3>
+            <p>Top speed: 320 km/h</p>
+        </div>
+
+    </div>
+
+    <script>
+        function checkLogin() {
+            if (localStorage.getItem("loggedIn") !== "true") {
+                window.location.href = "index.html";
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem("loggedIn");
+            window.location.href = "index.html";
+        }
+    </script>
+
+</body>
+</html>
