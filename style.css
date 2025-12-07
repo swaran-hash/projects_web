@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #111;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    color: #ffa31a;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url("https://via.placeholder.com/1200x500") center/cover no-repeat;
+    color: white;
+}
+
+.hero button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #ffa31a;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background: #e69500;
+}
+
+/* Cars section */
+.cars-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.car-card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.car-card h3 {
+    margin-top: 10px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
